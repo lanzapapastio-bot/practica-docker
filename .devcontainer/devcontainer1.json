@@ -1,0 +1,14 @@
+{
+  "name": "Docker Practice Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest"    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"      ]
+    }
+  },
+  "remoteUser": "vscode"}
